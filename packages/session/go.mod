@@ -10,6 +10,7 @@ require (
 )
 
 require (
+	code-code.internal/platform-contract v0.0.0
 	github.com/ag-ui-protocol/ag-ui/sdks/community/go v0.0.0-20260422125645-db533d2903cd // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
@@ -23,4 +24,6 @@ require (
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260120221211-b8f7ae30c516 // indirect
 )
 
-replace code-code.internal/go-contract => ../go-contract
+replace code-code.internal/go-contract => ../../code-code-contracts/packages/go-contract
+
+replace code-code.internal/platform-contract => ../platform-contract
