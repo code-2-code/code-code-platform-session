@@ -13,6 +13,8 @@ Focused service splits now exist:
 
 - `code-code-platform-catalog`: model, support, and CLI runtime catalog services.
 - `code-code-platform-auth-network`: auth, OAuth, egress, and network policy services.
+- `code-code-platform-provider`: provider catalog, connection, observability, and orchestration services.
+- `code-code-platform-agent-runtime`: AgentSession, AgentRun, timeline, and runtime orchestration services.
 - `code-code-platform-profile`: profile configuration service.
 - `code-code-platform-notifications`: notification dispatcher and callback services.
 
